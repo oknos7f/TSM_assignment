@@ -22,6 +22,9 @@
 | **의존성** | 클론 후 가상 환경(Virtual Environment)에 `requirements` 파일의 의존성 설치 |
 | **설정** | `ops/dataset_config.py` 파일에서 루트 디렉터리(root directory) 등의 환경 변수 수정 |
 
+## [실제 디렉터리 환경 변수(Hard-coded)](https://github.com/oknos7f/TSM_assignment/blob/main/ops/dataset_config.py#L95-L97)
+
+
 ---
 
 ## 2. 🧠 Apply Pre-trained Model & Data Preprocessing
@@ -48,6 +51,6 @@
 메모리 부족 문제로 인해 공식 제공 코드의 `batch_size`를 절반으로 줄여 테스트를 실행했습니다.
 
 ```bash
-.venv) PS C:\Users\jdmdj\Desktop\temporal-shift-module> python .\test_models.py kinetics \
+python .\test_models.py kinetics \
 --weights=pretrained/TSM_kinetics_RGB_resnet50_avg_segment5_e50.pth \
 --test_segments=8 --test_crops=1 --batch_size=32
