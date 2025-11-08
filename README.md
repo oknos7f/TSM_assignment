@@ -1,4 +1,13 @@
-# 📄 TSM (Temporal Shift Module) Pre-trained Model Test Report
+
+## ******************* 중요 *******************
+
+`dataset/kinetics/test_videos` 의 테스트 dataset은 용량문제로 18000개 중 7개만 샘플해놓은 상태입니다!!!
+`dataset/kinetics/labels/val_videofolder.txt` 는 아래의 설명대로 18000개 중 3000개의 샘플 ground truth를 담고있습니다!!!
+
+이 리포지토리 그대로 클론해서 실행하면 안돼요~~~~
+
+********************************************
+
 
 본 보고서는 TSM 모델의 사전 학습된 가중치를 사용하여 Kinetics 데이터셋의 일부에 대한 테스트 및 검증 결과를 기록합니다.
 
