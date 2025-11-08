@@ -1,0 +1,10 @@
+dataset/data
+.cache
+*.log
+.env
+.venv
+venv/
+__pycache__/
+*.pyc
+.idea/
+class.py
