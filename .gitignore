@@ -1,0 +1,11 @@
+.cache
+*.log
+.env
+.venv
+venv/
+__pycache__/
+*.pyc
+../.idea/
+
+*.jpg
+*.webm
