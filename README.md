@@ -15,7 +15,7 @@ python temporal-shift-module/main.py somethingv2 RGB \
 
 ### 원본에서 수정한 항목
 
-- [ops/dataset_config.py](ops/dataset_config.py): 루트 경로만 수정
+- [ops/dataset_config.py](ops/dataset_config.py#L8): 루트 경로만 수정
 - [ops/utils.py](ops/utils.py#L39): 39번째 줄 간단한 오류 수정
 - [ssd/](ssd/): 하위 폴더 전체 컨텐츠 생성
 - [tools/vid2img_sthv2.py](tools/vid2img_sthv2.py): 전체적으로 오류 수정
